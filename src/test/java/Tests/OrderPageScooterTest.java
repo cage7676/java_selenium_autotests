@@ -12,7 +12,7 @@ public class OrderPageScooterTest extends BaseUITest {
 
     @Test
     public void orderScooterButtonUp() {
-
+        // Проверки уведомления с окном об успешном выполнении заказа нет, т.к. не работает кнопка подтверждения в принципе, на стенде никак не увидеть это уведомлени.
         Order order = new Order("Тест", "Юзер", "Тестовый адрес", "Автозаводская", "89607779485", "18.07.2022", "четверо суток", "black", "Оставьте у подъезда");
 
         OrderDetailsFormPage isInputDataBlockDisplayed = new MainPage(driver)
